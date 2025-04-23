@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>去哪儿旅行</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <style>
+    .travel{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background: rgb(249,250,255);
+    }
+    /*顶部导航条*/
+    .topA{
+      width: 100%;
+      height: 100%;
+      background: white;
+   display: flex;
+     justify-content: center;
+      align-items: center;
+    }
+    .top{
+      width: 1510px;
+      height: 90px;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      position: fixed;
+      top: 0;
+      z-index: 999;
+    }
+    .top-l{
+      width: 200px;
+      height: 80px;
+      /*background: #1770a9;*/
+    }
+    .top-r{
+      width: 1150px;
+      height: 60px;
+      /*background: #ffeb3b;*/
+      position: center;
+    }
+    .top-l img{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      margin-left: 28px;
+    }
+    .top-list{
+      width: 1150px;
+      height: 60px;
+      /*background: #1770a9;*/
+      display: flex;
+      justify-content:space-evenly;
+      align-items: center;
+    }
+    .top-list span{
+     font-size: 16px;
+      color: #333333;
+      font-family: "Sans Serif Collection";
+      font-weight: 400;
+    }
+    .top-r1{
+      width: 25px;
+      height: 8px;
+      background: rgb(64,196,247);
+      border-radius: 25px;
+      position: relative;
+      margin-left:45px;
+      margin-top: -8px;
+    }
+    .top-list a:hover{
+      color: rgb(64,196,247);
+    }
+    /*主体部分*/
+    .content{
+      width: 100%;
+      height: 100%;
+      margin: 90px auto;
+    }
+/*.bg{
+  width: 1510px;
+  height: 2000px;
+    max-width: 2000px;
+  min-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  background: #1770a9;
+}*/
+.imgBg{
+  width: 1510px;
+  height: 830px;
+  background: url("images/背景.jpg") no-repeat ;
+  background-position-x: center;
+  background-size:140%;
+  position: relative;
+  margin: 0 auto;
+}
+.ma{
+  width: 888px;
+  height: 888px;
+  position: absolute;
+  margin-top: 380px;
+  margin-left: 100px;
+}
+.ma img{
+  width: 50%;
+  height: 50%;
+}
+.tra{
+  width: 130px;
+  height: 160px;
+  /*background: pink;*/
+  position: absolute;
+  margin-left: 960px;
+  margin-top: 605px;
+}
+.server{
+  width: 1200px;
+  height: 320px;
+  /*background: #ffeb3b;*/
+  margin: 0 auto;
+  position: relative;
+}
+.server1{
+  width: 800px;
+  height: 300px;
+  /*background: green;*/
+  position:absolute;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.server1-1{
+  width: 50px;
+  height: 10px;
+  background:rgb(64,196,247) ;
+  margin: 25px auto;
+  border-radius: 20px;
+}
+.zi{
+  width: 660px;
+  height: 120px;
+  /*background: pink;*/
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  font-family: "PingFang";
+  font-weight: 500;
+}
+   /*旅行攻略图片部分*/
+.serverB {
+  width: 1400px;
+  height: 300px;
+  /*background: #1770a9;*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imgB{
+  width: 400px;
+  height: 260px;
+  /*background: pink;*/
+  border-radius: 20px;
+}
+.imgB img{
+  width: 100%;
+  height: 100%;
+}
+/*深度合作部分*/
+.heZuo{
+  width: 1500px;
+  height: 660px;
+  /*background: #1770a9;*/
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.heZuo1{
+  width: 1500px;
+  height: 500px;
+  background: url("images/深度合作.jpg");
+  background-size: 100%;
+}
+.heZuo2{
+  width: 280px;
+  height: 90px;
+  background:url("images/业务合作.jpg") no-repeat ;
+  background-size: 206%;
+  margin: 0 auto;
+}
+.heZuo2:hover{
+  width: 280px;
+  height: 90px;
+  background:url("images/业务合作.jpg") no-repeat ;
+  background-size: 205%;
+  margin: 0 auto;
+  background-position-x: -295px ;
+}
+  </style>
+</head>
+<body>
+<div class="travel">
+<!--  顶部导航条-->
+  <div class="topA">
+<div class="top">
+  <div class="top-l"><img src="images/去哪儿旅行.png" height="96" width="280"/></div>
+  <div class="top-r">
+    <div class="top-list">
+      <span><a href="https://www.qunar.com/">首页</a></span>
+      <span><a href="https://www.qunar.com/site/zh/Qunar.in.China_1.2.shtml">关于去哪儿</a></span>
+      <span><a href="https://www.qunar.com/site/zh/Cooperate_4.shtml">业务合作</a></span>
+      <span><a href="https://app.mokahr.com/social-recruitment/qunar/37562#/">加入我们</a></span>
+      <span><a href="https://help.qunar.com/#/suggestion">整治举报</a></span>
+      <span><a href="https://security.qunar.com/">安全中心</a></span>
+      <span><a href="https://adqunar.qunar.com/travelnews/#/list">旅游快讯</a></span>
+      <span><a href="https://www.qunar.com/commonweal/index.html">星骆驼公益</a></span>
+      <span><a href="https://www.qunar.com/site/en/Qunar.in.China_1.1.shtml">About Us</a></span>
+      <span><a href="https://group.trip.com/">Trip.com.Group</a></span>
+    </div>
+    <div class="top-r1"></div>
+  </div>
+</div>
+  </div>
+<!--  导航条以下部分-->
+  <div class="content">
+    <div class="bg">
+      <div class="imgBg">
+        <div class="ma"><img src="images/二维码.png" height="888" width="888"/></div>
+        <a href="https://dujia.qunar.com/"><div class="tra"></div></a>
+      </div>
+    </div>
+    <div class="server">
+  <div class="server1">
+    <div class="server1-1"></div>
+    <div class="zi">
+    <div class="zi1">我们依然提供以下业务的</div>
+    <div class="zi2">网页版在线服务</div>
+    </div>
+  </div>
+    </div>
+<!--    旅行攻略图片部分-->
+    <div class="serverB">
+<div class="imgB"><a href="https://travel.qunar.com/?from=header"><img src="images/旅行攻略.png" height="384" width="577"/></a></div>
+<div class="imgB"><a href="https://dujia.qunar.com/"><img src="images/旅游度假.png" height="382" width="578"/></a></div>
+<div class="imgB"><a href="https://diy.dujia.qunar.com/?tf=djnavkj_diy"><img src="images/定制游.png" height="385" width="578"/></a></div>
+    </div>
+  </div>
+<!--深度合作部分-->
+<div class="heZuo">
+  <div class="heZuo1"></div>
+  <div class="heZuo2"></div>
+</div>
+</div>
+</body>
+</html>
